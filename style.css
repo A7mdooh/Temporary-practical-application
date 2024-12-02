@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.clock {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.timer-buttons button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timer-buttons button:hover {
+    background-color: #45a049;
+}
+
+.countdown {
+    font-size: 2.5em;
+    color: #FF4500;
+    margin-top: 20px;
+}
+
+.extend-time {
+    display: none;
+    margin-top: 20px;
+}
+
+#extend-button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1em;
+    color: #999;
+}
